@@ -1,1 +1,1 @@
-# maxbogo.github.io
+# Studify https://maxbogo.github.io./
