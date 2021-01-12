@@ -53,18 +53,6 @@ section {
 	margin-bottom: 0px;
 }
 
-.divider {
-	padding: 2rem 0 0;
-    margin: 2rem 0 0;
-    border-top: 1px solid #3c3f45;
-}
-
-.divider-light {
-	padding: 2rem 0 0;
-    margin: 2rem 0 0;
-	border-top: 1px solid #edf1f2
-}
-
 .custom-navbar {
 	background-color: #ffffff!important;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,.09);
@@ -80,10 +68,6 @@ section {
 .navbar-toggler:focus {
 	text-decoration: none;
 	outline: none;
-}
-
-.navbar-toggler-icon {
-	color: #ffffff;
 }
 
 .navbar-collapse {
@@ -159,21 +143,6 @@ section {
 	color: #ffffff!important;
 }
 
-.btn-buy {
-	color: #ffffff;
-	background-color: #0095f7;
-	letter-spacing: .1em;
-	padding: 15px 48px;
-	display: inline-block;
-	width: 100%;
-	margin-top: 20px;
-}
-
-.btn-buy:hover {
-	background-color: #0191f0;
-	color: #ffffff;
-}
-
 #hero {
 	background-color: #f6f8f9;
 }
@@ -224,12 +193,6 @@ section {
 	padding: 60px 20px;
 }
 
-#testimonials {
-	background-color: #f6f8f9;
-	border-top: 1px solid #F8F9FB;
-	border-bottom: 1px solid #F8F9FB;
-}
-
 .testimonial-box {
 	background-color: #ffffff;
 	box-shadow: 0 0 1px 0 rgba(0,12,32,0.04), 0 10px 16px 0 rgba(10,31,68,0.06);
@@ -268,12 +231,6 @@ section {
 	color: #ffffff;
 }
 
-.rating {
-	background-color: #0095f7;
-	padding: 2px 12px;
-	border-radius: 50px;
-}
-
 .profile-picture {
   display: inline-block;
   width: 60px;
@@ -295,66 +252,6 @@ section {
 .personal-info {
 	padding: 5px 0 20px 0;
 	border-bottom: 1px solid #edf1f2;
-}
-
-.pricing-box {
-	background-color: #ffffff;
-	padding: 40px 20px;
-	border: 1px solid #F8F9FB;
-	border-radius: 6px;
-	box-shadow: 0 0 1px 0 rgba(0,12,32,0.04), 0 10px 16px 0 rgba(10,31,68,0.06);
-	margin-top: 30px;
-}
-
-.pricing-box h3 {
-	font-size: 22px;
-	font-weight: 300;
-	letter-spacing: .1em;
-	color: #0095f7;
-}
-
-.pricing-box h6 {
-	font-size: 60px;
-	font-weight: 700;
-	color: #3a3f52;
-	margin-bottom: 0px;
-}
-
-.pricing-box p {
-	font-size: 17px;
-	margin-top: 15px;
-	padding: 0px;
-}
-
-.pricing-box ul {
-	padding-left: 10px;
-}
-
-.pricing-box li {
-	font-size: 14px;
-	font-weight: 300;
-	color: #8da2b5;
-	letter-spacing: .1em;
-}
-
-.pricing-box span {
-	font-weight: 500;
-	color: #0095f7;
-}
-
-.pricing-box small {
-	color: #8da2b5;
-	letter-spacing: .2em;
-}
-
-.pricing-box i {
-	font-size: 20px;
-	color: #0095f7;
-	margin-right: 10px;
-}
-
-.pricing-box .demo {
-	color: #6772e5!important;
 }
 
 #call-to-action {
@@ -609,19 +506,7 @@ footer small {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
-	.pricing-box h3 {
-		font-size: 17px;
-	}
-	.pricing-box p {
-		font-size: 14px;
-	}
-	.pricing-box li {
-		font-size: 12px;
-	}
-	.btn-buy {
-		font-size: 12px;
-		padding: 15px 20px;
-	}
+
 	.btn-demo {
 		font-size: 12px;
 		padding: 15px 20px;
