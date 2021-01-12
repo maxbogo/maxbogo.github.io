@@ -138,13 +138,32 @@
         <p>We are still building the app, but subscribe now and get early bird access already in 2 months.</p>
         <form>
           <div class="form-group mx-sm-3 mb-2">
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" >
           </div>
-          <button type="submit" class="btn btn-regular">Subscribe</button>
+          <button type="submit" class="btn btn-regular" data-toggle="modal" data-target="#exampleModal">Subscribe</button>
         </form>
       </div>
     </div>
   </section>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Erfolg</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Sie werden sofort benachrichtigt, sobald wir mehr mit Ihnen teilen können
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- E N D  S U B S C R I B E -->
 
   <!-- C O N T A C T S -->
