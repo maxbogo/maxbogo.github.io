@@ -376,6 +376,38 @@ footer small {
 	color: #0095f7;
 }
 
+#mvp {
+
+	background-color: white;
+
+}
+
+#leiste {
+
+	position: relative;
+	top: 0px;
+	width: 100%;
+	height: 30px;
+	background-color: #0063a6;
+	color: white;
+	padding: 5px;
+	padding-left: 15px;
+
+
+}
+
+.alert {
+	
+	padding: 3px !important;
+
+}
+
+.unterlagen-tr {
+
+	display: none;
+
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
 	h2 {
