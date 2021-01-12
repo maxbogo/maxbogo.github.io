@@ -30,9 +30,10 @@ ul {
 	padding-left: 0px;
 }
 
-b {
+b, .b {
 	font-weight: 700;
 }
+
 
 section {
 	padding: 100px 0px;
@@ -379,6 +380,8 @@ footer small {
 #mvp {
 
 	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
 
 }
 
