@@ -286,7 +286,7 @@
   </section>
   <!-- E N D  P A R T H N E R S -->
 
-  <!-- S U B S C R I B E -->
+  <<!-- S U B S C R I B E -->
   <section id="call-to-action">
     <div class="container text-center">
       <h2>Bleibe am Laufenden</h2>
@@ -296,15 +296,16 @@
         <p>Wir geben Deine Daten niemals an Dritte weiter, und es besteht jederzeit die Möglichekit, Dich umkompliziert abzumelden.</p>
         <form>
           <div class="form-group mx-sm-3 mb-2">
-            <input class="form-control" id="email_text" placeholder="Enter email">
+              <input type="email" class="form-control" id="email_text" aria-describedby="emailHelp" placeholder="Enter email">
+              <p class="email_error" id="email_error">Man soll eine richtige email schreiben!</p>
           </div>
-          <button type="reset" class="btn btn-regular" data-toggle="modal" data-target="#subscribe_modal">Subscribe</button>
+          <button type="reset" class="btn btn-regular"  id="email_submit">Subscribe</button>
         </form>
       </div>
     </div>
   </section>
 
-  <div class="modal fade" id="subscribe_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal email_ok" id="subscribe_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -317,7 +318,7 @@
           Vielen Dank! Wir werden Dich benachrichtigen, sobald es Neuigkeiten gibt.
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" id="close_button">Close</button>
         </div>
       </div>
     </div>
@@ -329,7 +330,7 @@
     <div class="container text-center">
       <h2>Hast Du noch Fragen?</h2>
       <div class="title-block">
-        <p>Falls Du noch Fragen oder Anliegen hast, zögere nicht uns zu kontaktieren!</p> 
+        <p>Falls Du noch Fragen oder Anliegen hast, zögere nicht uns zu kontaktieren!</p>
         <p><span class="b">Telefon:</span> +43 666 123 456 78<br />
            <span class="b">Email:</span> support@studify.com
           </p>
