@@ -18,7 +18,7 @@ $(document).ready(() => {
 
     $("#email_text").keypress(function(e){
         if (e.key === 'Enter') {
-            window.location.href='#call-to-action'
+            e.preventDefault();
             $("#subscribe_modal").modal();
         }
     })
