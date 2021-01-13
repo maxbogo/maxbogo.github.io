@@ -628,3 +628,12 @@ footer small {
 		margin-left: 10px;
 	}
 }
+
+.email_error{
+  display:none;
+  color: red;
+}
+
+.email_ok{
+  display: none;
+}
