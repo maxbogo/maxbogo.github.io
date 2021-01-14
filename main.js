@@ -26,7 +26,7 @@ $(document).ready(() => {
 
         dbs: [
 
-            {time: "10.01 17:22", text: "Also ich hab mir grad eine Altklausuhr angesehen und gar nichts gecheckt. Kann mir da jemand helfen?", user: "Dieter Schulze"},
+            {time: "10.01 17:22", text: "Also ich hab mir grad eine Altklausur angesehen und gar nichts gecheckt. Kann mir da jemand helfen?", user: "Dieter Schulze"},
             {time: "10.01 17:25", text: "Schau dir mal die Lösungen an die schon hochgeladen wurden, vielleicht hilft dir das ja", user: "Ralph Schroeder"},
             {time: "10.01 17:28", text: "Ok gut das mach ich mal, danke für den Hinweis", user: "Dieter Schulze"},
 
