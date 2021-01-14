@@ -50,6 +50,12 @@ $(document).ready(() => {
        }
     });
 
+  $(".nav-link").click(function(e) {
+
+        var nav = $("#navbarNavDropdown");
+        nav.removeClass("show");
+
+    })
 
 
 });
