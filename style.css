@@ -425,6 +425,31 @@ footer small {
 
 }
 
+.chat-tr td {
+
+	padding: 15px;
+	border: thin solid #ddd;
+
+}
+.chat-time {
+
+	color: rgb(146, 145, 145);
+
+}
+
+.chat-content {
+
+	padding-left: 20px;
+	padding-top: 5px;
+
+}
+
+.chat-tr {
+
+	display: none;
+
+}
+
 #leiste {
 
 	position: relative;
