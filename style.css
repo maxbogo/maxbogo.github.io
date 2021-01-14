@@ -382,6 +382,19 @@ footer small {
 	background-color: white;
 	margin-left: auto;
 	margin-right: auto;
+	width: 100%;
+
+}
+
+#mvp input[type="file"] {
+
+	width: 200px;
+	
+}
+
+.new-msgs {
+
+	margin-left: 5px;
 
 }
 
@@ -467,7 +480,7 @@ footer small {
 		color: #0063a6;
 	}
   
-  a {
+  a:not(#mvp a) {
 	text-decoration: none;
 	color: white;
   }
@@ -519,6 +532,12 @@ footer small {
 	footer small {
 		float: left;
 		margin-top: 20px;
+	}
+	#mvp {
+
+		width: 80%;
+		overflow-x: scroll;
+
 	}
 }
 
