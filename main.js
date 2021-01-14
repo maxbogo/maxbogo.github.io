@@ -73,6 +73,18 @@ $(document).ready(() => {
     
     })
 
+    $(".replace-file-button").click(function(e) {
+
+        let subject = this.id.substr(13);
+        
+        if(Object.prototype.hasOwnProperty.call(docs, subject)) {
+
+            $("#add_doc_" + subject).click();
+
+        }
+
+    })
+
 
     /* end MVP stuff */
 

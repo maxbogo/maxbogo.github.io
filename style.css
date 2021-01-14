@@ -383,6 +383,13 @@ footer small {
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
+	position: relative;
+
+}
+
+#mvp table {
+
+	z-index: 1;
 
 }
 
@@ -390,6 +397,26 @@ footer small {
 
 	width: 200px;
 	
+}
+
+#mvp #chat {
+
+	width: 90%;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	padding: 20px;
+	z-index: 1000;
+	background: white;
+	opacity: 0.95;
+	height: 100%;
+
+}
+
+#mvp .lv-link-small {
+
+	display: none;
+
 }
 
 .new-msgs {
@@ -409,6 +436,12 @@ footer small {
 	padding: 5px;
 	padding-left: 15px;
 
+
+}
+
+#mvp .replace-file-button {
+
+	display: none;
 
 }
 
@@ -489,6 +522,7 @@ footer small {
 	text-decoration: underline;
   }
 
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
 	h2 {
@@ -533,12 +567,7 @@ footer small {
 		float: left;
 		margin-top: 20px;
 	}
-	#mvp {
 
-		width: 80%;
-		overflow-x: scroll;
-
-	}
 }
 
 @media (max-width: 768px) { 
@@ -549,6 +578,36 @@ footer small {
 	#hero p {
 		font-size: 20px!important;
 	}
+	#mvp {
+
+		width: 90%;
+
+	}
+
+	#mvp .mvp-lv {
+
+		display: none;
+
+	}
+
+	#mvp .lv-link-small {
+
+		display: inline;
+
+	}
+
+	#mvp input[type="file"] {
+
+		display: none;
+
+	}
+
+	#mvp .replace-file-button {
+
+		display: inline;
+
+	}
+
 }
 
 @media (max-width: 991px) { 
