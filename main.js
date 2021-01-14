@@ -54,7 +54,6 @@ $(document).ready(() => {
 
         var nav = $("#navbarNavDropdown");
         nav.removeClass("show");
-        alert("eeeeeeee");
 
     })
 
