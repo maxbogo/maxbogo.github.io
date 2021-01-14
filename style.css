@@ -538,11 +538,6 @@ footer small {
 		color: #0063a6;
 	}
   
-  a:not(#mvp a) {
-	text-decoration: none;
-	color: white;
-  }
-  
   a:hover {
 	text-decoration: underline;
   }
