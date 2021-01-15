@@ -8,6 +8,17 @@
 
   <!-- Custom Css -->
   <link rel="stylesheet" href="style.css" type="text/css" />
+  <style type="text/css">
+  
+    body {
+
+      background-image: url('images/call-to-action.png');
+	    background-repeat: no-repeat;
+	    background-size: cover;
+
+    }
+
+  </style>
 
   <!-- Ionic icons -->
   <link href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css" rel="stylesheet">
@@ -52,18 +63,20 @@
   </nav>
   <!-- E N D  N A V B A R -->
 
-    <div class="notfound">
-     <div class="container">
-          <div class="mainbox">
+  <div id="notfound">
+      <div id="notfound-flex-vertical">
             <div class="err">4</div>
-            <i class="far fa-question-circle fa-spin"></i>
+            <div><i class="far fa-question-circle fa-spin"></i></div>
             <div class="err2">4</div>
-            <div class="msg">
-              Maybe this page moved? Got deleted? Is hiding out in quarantine? Never existed in the first place?
-              <p><a href="index.html" class="btn btn-regular homebtn">Go Home!</a></p>
-          </div>
-     </div>
-   </div>
+      </div>
+      <div class="msg">
+        <p>Maybe this page moved?</p> 
+        <p>Got deleted?</p>
+        <p> Is hiding out in quarantine?</p>
+        <p> Never existed in the first place?</p>
+        <p><a href="index.html" class="btn btn-regular homebtn">Go Home!</a></p>
+    </div>
+  </div>
 
     <!-- External JavaScripts -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
